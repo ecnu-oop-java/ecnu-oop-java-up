@@ -75,7 +75,7 @@ $$\begin{eqnarray*}
 z = r(\cos\varphi + i\sin\varphi), \ \ \text{ 其中 } \  r \in [0, \infty), \varphi \in (-\pi, \pi]
 \end{eqnarray*}$$
 
-![](../images/complex_polar.png)
+![](images/complex_polar.png)
 
 由欧拉公式 $e^{i\varphi} = \cos\varphi + i\sin\varphi$, 可得
 

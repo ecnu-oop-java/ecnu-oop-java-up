@@ -14,11 +14,11 @@ I = \frac{V}{R}
   * 串联 (Series): 将两个电阻首尾相连. 其等效电阻等于两个电阻的和.
   * 并联 (Parallel): 将两个电阻并行排列. 其等效电阻等于倒数和的倒数.
 
-\ \ \ \ \ ![](images/circuits/seriesparallel.png)
+![](images/circuits/seriesparallel.png)
 
 例如, 以下网络由两个串联电阻与第三个电阻并联形成. 它的等效电阻为 $\frac{1}{\frac{1}{R_1} + \frac{1}{R_2 + R_3}}$ 
 
-\ \ \ \ \ ![](images/circuits/combination.png)
+![](images/circuits/combination.png)
 
 
 ## 如何表示网络
@@ -45,11 +45,11 @@ I = \frac{V}{R}
   2. 两个电阻为3和5的电阻器并联可以表示为: "(/, 3, 5)"
   3. 以下网络可以表示成为: "(-, (/, (/, 4, 8), 5), 3)"
 
-\ \ \ \ \ ![](images/circuits/parallel3.png)
+![](images/circuits/parallel3.png)
 
   4. 以下网络可以表示成为: "(/, (-, (/, 6, 3), 2), (-, 3, 3))"
 
-\ \ \ \ \ ![](images/circuits/circuit2.png)
+![](images/circuits/circuit2.png)
 
 这样的表示方式称为 [上下文无关文法 (Context Free Gramma)](https://zh.wikipedia.org/wiki/%E4%B8%8A%E4%B8%8B%E6%96%87%E6%97%A0%E5%85%B3%E6%96%87%E6%B3%95), 它是在程序语言设计, 人工智能等方向有广泛应用.
 
@@ -57,13 +57,13 @@ I = \frac{V}{R}
 
 1. 写出下列网络的字符串表示
 
-\ \ \ \ \ ![](images/circuits/series3.png)
+![](images/circuits/series3.png)
 
-\ \ \ \ \ ![](images/circuits/circuit.png)
+![](images/circuits/circuit.png)
 
-\ \ \ \ \ ![](images/circuits/bigcircuit.png)
+![](images/circuits/bigcircuit.png)
 
-\ \ \ \ \ ![](images/circuits/bigcircuit2.png)
+![](images/circuits/bigcircuit2.png)
 
 2. 定义 Circuit 类用来表示电路网络.
 
@@ -76,9 +76,6 @@ resistance() 返回该网络的等效电阻值. 给定网络的字符串表示, 
 
 3. 修改 Circuit 类, 使得给定电源电压, 能够计算任意子网络两端的电势差以及流经该网络的电流.
 
-\ \ \ \ \ ![](images/circuits/circuit2withbattery.png)
-
-
-
+![](images/circuits/circuit2withbattery.png)
 
 

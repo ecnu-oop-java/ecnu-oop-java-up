@@ -32,7 +32,7 @@
 
 Koch 曲线是一种分形曲线. 以下分别是0阶, 1阶, 2阶及3阶 Koch 曲线.
 
-![0阶](images/koch0.png) \ \ \ \  ![1阶](images/koch1.png)  \ \ \ \  ![2阶](images/koch2.png) \ \ \ \   ![3阶](images/koch3.png)
+![0阶](images/koch0.png) ![1阶](images/koch1.png) ![2阶](images/koch2.png)  ![3阶](images/koch3.png)
 
 
 绘制 n 阶 Koch 曲线可以通过以下算法实现:
@@ -51,7 +51,7 @@ Koch 曲线是一种分形曲线. 以下分别是0阶, 1阶, 2阶及3阶 Koch �
 Koch 雪花是二维平面上由 Koch 曲线组合成的封闭图形. 
 以下分别是0阶, 1阶, 2阶及3阶 Koch 雪花.
 
-![](images/koch_snow0.png) \ \ \ \  ![](images/koch_snow1.png) \ \ \ \ ![](images/koch_snow2.png) \ \ \ \ ![](images/koch_snow3.png)
+![](images/koch_snow0.png) ![](images/koch_snow1.png) ![](images/koch_snow2.png) ![](images/koch_snow3.png)
 
 绘制 n 阶 Koch 雪花可以通过以下算法实现:
 
@@ -93,15 +93,15 @@ Koch 雪花是二维平面上由 Koch 曲线组合成的封闭图形.
 1. 利用 StdDraw 设计一个类 Turtle, 并使用 Turtle 类画出以下三类图片 (提示: Turtle类包含数据成员(x, y)表示当前所在的坐标点, 数据成员angle表示当前画笔前进的角度, 方法turnLeft(delta)表示把当前画笔角度左转delta度, goForward(step)表示画笔从当前位置沿当前角度画一条长度为step的线).
   * 单位圆的内接正 N 边形
 
-![](images/ngon3.png) \ \ \ \  ![](images/ngon4.png) \ \ \ \  ![](images/ngon5.png) \ \ \ \  ![](images/ngon6.png)
+![](images/ngon3.png) ![](images/ngon4.png) ![](images/ngon5.png) ![](images/ngon6.png)
 
   * 螺旋线 (Spiral): 单位圆内接正 N 边形的边长随时间 t 衰减得到的曲线. 接收三个参数, N: 正 N 边形, T: 螺旋线盘旋的次数(即, 穿过第一象限的次数), D: 边长衰减的倍数.  下面分别为T=10, D=1.1, N为3, 4, 5, 6所得到的图形.
 
-![](images/spiral3.png) \ \ \ \ ![](images/spiral4.png) \ \ \ \  ![](images/spiral5.png) \ \ \ \  ![](images/spiral6.png)
+![](images/spiral3.png) ![](images/spiral4.png) ![](images/spiral5.png) ![](images/spiral6.png)
 
   * [布朗运动 (Brownian Motion)](https://en.wikipedia.org/wiki/Brownian_motion). 粒子在平面上随机选择方向移动. 接收两个参数, T: 移动次数, S: 每次移动的长度. 以下是T=1000, S=0.1时得到的四个图形.
 
-\ \ \ \ \ \ \ \ \ ![](images/brown1.png) ![](images/brown2.png) \ \ \ \  ![](images/brown3.png) ![](images/brown4.png) 
+![](images/brown1.png) ![](images/brown2.png) ![](images/brown3.png) ![](images/brown4.png) 
 
 
 2. 绘制 Koch 雪花. 接收命令行参数 N, 表示图形的阶数 (以下实验中, 参数均通过命令行给出. 提示：使用 Turtle 类).
@@ -112,16 +112,16 @@ Koch 雪花是二维平面上由 Koch 曲线组合成的封闭图形.
 
 * Minkowski sausage
 
-![](images/sausage0.png) \ \ \ ![](images/sausage1.png) \ \ \ ![](images/sausage2.png) \ \ \ ![](images/sausage3.png) \ \ \ ![](images/sausage4.png)
+![](images/sausage0.png) ![](images/sausage1.png) ![](images/sausage2.png) ![](images/sausage3.png) ![](images/sausage4.png)
 
 * Gosper island
 
-![](images/gosper0.png) \ \ \ ![](images/gosper1.png) \ \ \  ![](images/gosper2.png) \ \ \ ![](images/gosper3.png) \ \ \ ![](images/gosper4.png)
+![](images/gosper0.png) ![](images/gosper1.png) ![](images/gosper2.png) ![](images/gosper3.png) ![](images/gosper4.png)
 
 
 * Fudge flake
 
-![](images/fudgeflake0.png) \ \ \ ![](images/fudgeflake1.png) \ \ \ ![](images/fudgeflake2.png) \ \ \ ![](images/fudgeflake3.png) \ \ \  ![](images/fudgeflake4.png)
+![](images/fudgeflake0.png) ![](images/fudgeflake1.png) ![](images/fudgeflake2.png) ![](images/fudgeflake3.png) ![](images/fudgeflake4.png)
 
 * Levy tapestry
 
@@ -130,18 +130,18 @@ Koch 雪花是二维平面上由 Koch 曲线组合成的封闭图形.
 
 * Hilbert curve
 
-![](images/hilbert0.png) \ \ \ ![](images/hilbert1.png) \ \ \ ![](images/hilbert2.png) \ \ \ ![](images/hilbert3.png) \ \ \ ![](images/hilbert4.png)
+![](images/hilbert0.png) ![](images/hilbert1.png) ![](images/hilbert2.png) ![](images/hilbert3.png) ![](images/hilbert4.png)
 
 
 * Sierpinski curve
 
-![](images/sierpinski-curve0.png) \ \ \ ![](images/sierpinski-curve1.png) \ \ \ ![](images/sierpinski-curve2.png) \ \ \ ![](images/sierpinski-curve3.png) \ \ \ ![](images/sierpinski-curve4.png)
+![](images/sierpinski-curve0.png) ![](images/sierpinski-curve1.png) ![](images/sierpinski-curve2.png) ![](images/sierpinski-curve3.png) ![](images/sierpinski-curve4.png)
 
 * Dragon curve 
 
-![](images/dragon0.png) \ \ \ ![](images/dragon1.png) \ \ \ ![](images/dragon2.png) \ \ \ ![](images/dragon3.png) \ \ \ ![](images/dragon4.png)
+![](images/dragon0.png) ![](images/dragon1.png) ![](images/dragon2.png) ![](images/dragon3.png) ![](images/dragon4.png)
 
-![](images/dragon5.png) \ \ \ ![](images/dragon6.png) \ \ \ ![](images/dragon7.png) \ \ \ ![](images/dragon8.png) \ \ \ ![](images/dragon9.png)
+![](images/dragon5.png) ![](images/dragon6.png) ![](images/dragon7.png) ![](images/dragon8.png) ![](images/dragon9.png)
 
 
 5. 你能否设计出自己的分形?

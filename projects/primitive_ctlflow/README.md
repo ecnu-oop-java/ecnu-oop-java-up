@@ -1,7 +1,7 @@
 # 基本类型与控制流
 
-本次作业你将熟悉 Java 的基本类型 (primitive type), 表达式 (expression) 和控制结构 (control flow).
-这些"面向过程"的方法是实现"面向对象"编程的基础. 另一方面, 你将复习模块化编程 (modular programming): 练习如何定义, 使用静态函数, 使用静态类编写一个简单的库. 希望此次作业能够帮助你了解 Java 的基础语法, 特别是它与 C 语言的区别. 同时, 希望通过强调"模块化"的概念, 为今后学习面向对象的设计打下基础.
+本次作业我们将熟悉 Java 的基本类型 (primitive type), 表达式 (expression) 和控制结构 (control flow).
+这些"面向过程"的方法是实现"面向对象"编程的基础. 另一方面, 我们也会复习模块化编程 (modular programming): 练习如何定义, 使用静态函数, 使用静态类编写一个简单的库. 希望此次作业能够帮助大家了解 Java 的基础语法, 特别是它与 C 语言的区别. 同时, 希望通过强调"模块化"的概念, 为今后学习面向对象的设计打下基础.
 
 ## 基本类型的封装 (Wrappers of primitive types)
 
@@ -63,7 +63,7 @@ else
 > [Random 类](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html) 也提供了产生随机数的接口. 
 
 
-##实验内容
+## 实验内容
 
 ### 基本类型和控制语句
 
