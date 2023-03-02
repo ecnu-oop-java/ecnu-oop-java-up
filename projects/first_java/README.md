@@ -165,7 +165,7 @@ sudo apt-get install openjdk-8-jdk
 2. 分别删除第一行的 public, 第二行的 public, static, void, args, String 分别会发生什么?
 3. 如果错误的拼写了 public, static, void, args, String 分别会发生什么?
 4. 如果错误的拼写了 System, out, println 分别会发生什么?
-5. 将第二行替换成为 `public static void main()`{.java} 会发生什么?
+5. 将第二行替换成为 `public static void main()` 会发生什么?
 6. 将文件重命名为 HalloWorld.java 会发生什么?
 7. 将 HelloWorld.java 中的每个空格替换为两个空格, 每行间增加一些空行, 删除每行前的空格分别会发生什么?
 8. 编写程序 Hi.java
@@ -190,7 +190,7 @@ sudo apt-get install openjdk-8-jdk
     java Hi.class Bob
     java Hi Alice Bob
     ```
-修改以上程序, 使它能够接收3个命令行参数, 并倒序输出它们. 比如执行 `java Hi Alice Bob Carol`{.shell}, 输出 `Hi Carol, Bob, Alice.`.
+修改以上程序, 使它能够接收3个命令行参数, 并倒序输出它们. 比如执行 `java Hi Alice Bob Carol`, 输出 `Hi Carol, Bob, Alice.`.
 
 9. 编写程序输出10次 "Hello World!".
 10. Java 语言的变量类型 (int, float, double), 表达式(运算符, 逻辑表达式等)以及控制结构 (条件语句, 循环语句等) 和 C 语言比较相似. 你能否用使用 C 语言的知识写一些稍微复杂的 Java 程序呢?
