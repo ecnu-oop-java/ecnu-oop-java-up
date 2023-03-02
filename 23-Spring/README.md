@@ -16,7 +16,7 @@ Dep. of Computer Science, ECNU, Spring 2023
 * 助教: 杨润东
   * Email: 10205102454\[at\]stu.ecnu.edu.cn
 
-* 助教: 刘诺维
+* 助教: 刘诺纬
   * Email: 10191900446\[at\]stu.ecnu.edu.cn
 
 ## 答疑

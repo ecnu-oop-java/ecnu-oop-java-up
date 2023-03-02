@@ -16,7 +16,7 @@
 我们将使用命令 `javac` 来编译 Java 程序, 用命令`java` 运行编译好的 Java 程序.
 这两个命令包含在 JDK (Java Development Kit) 中.
 JDK 有不同的实现, 
-其中比较常见的是 [Oracle JDK](http://www.oracle.com/technetwork/java/javase/overview/index.html) 和 [OpenJDK](openjdk.java.net/).
+其中比较常见的是 [Oracle JDK](http://www.oracle.com/technetwork/java/javase/overview/index.html) 和 [OpenJDK](https://jdk.java.net/19/).
 
 
 ### Winodws + Oracle JDK
