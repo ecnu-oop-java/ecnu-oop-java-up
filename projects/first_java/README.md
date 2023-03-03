@@ -181,7 +181,7 @@ sudo apt-get install openjdk-8-jdk
     ```
 执行以下命令分别会发生什么? 你能理解 args 的含义吗?
 
-    ```shell
+```shell
     java Hi
     java Hi @#$%
     java Hi 1024
@@ -189,7 +189,8 @@ sudo apt-get install openjdk-8-jdk
     java Hi.java Bob
     java Hi.class Bob
     java Hi Alice Bob
-    ```
+```
+
 修改以上程序, 使它能够接收3个命令行参数, 并倒序输出它们. 比如执行 `java Hi Alice Bob Carol`, 输出 `Hi Carol, Bob, Alice.`.
 
 9. 编写程序输出10次 "Hello World!".
