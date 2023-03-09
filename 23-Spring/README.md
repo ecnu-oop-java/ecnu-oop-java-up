@@ -31,6 +31,7 @@ Dep. of Computer Science, ECNU, Spring 2023
 ## 讲义
 
 * [Lecture 1](slides/lecture1.pdf)
+* [Lecture 2](slides/lecture2.pdf)
 
 ## 实验
 
@@ -49,8 +50,8 @@ Dep. of Computer Science, ECNU, Spring 2023
 ### 实验内容
 
 * Project 1: [第一个 Java 程序](../projects/first_java/README.md)
-<!--
 * Project 2: [基本类型与控制流](../projects/primitive_ctlflow/README.md), [补充实验](../projects/familiar_with_toolkits/README.md)
+<!--
 * Project 3: [使用 Java 包](../projects/use_data_types/README.md)
 * Project 4: [创建 Java 类](../projects/build_data_types/README.md)
 * Project 5: [继承与组合](../projects/inheritance/README.md)
