@@ -137,7 +137,7 @@ public class Luminance {
     * Linear filter: 每一个像素的颜色变为周围 9 个像素点(包含它本身)颜色的平均值. 这个变换等价于将矩阵 
 
       ```math
-      \begin{bmatrix}\frac{1}{9}, \frac{1}{9}, \frac{1}{9} \\ \frac{1}{9}, \frac{1}{9}, \frac{1}{9}\\ \frac{1}{9}, \frac{1}{9}, \frac{1}{9}\end{bmatrix}
+      \begin{bmatrix} \frac{1}{9}, \frac{1}{9}, \frac{1}{9} \\ \frac{1}{9}, \frac{1}{9}, \frac{1}{9} \\ \frac{1}{9}, \frac{1}{9}, \frac{1}{9} \end{bmatrix}
       ```
     
       与 9个像素点做 *卷积 (Convolution)* . 而这个矩阵被称为卷积矩阵 (convolutional matrix). 关于卷积矩阵可以参考[1](https://en.wikipedia.org/wiki/Kernel_(image_processing)), [2](https://docs.gimp.org/2.6/en/plug-in-convmatrix.html).
@@ -145,20 +145,20 @@ public class Luminance {
     * Blur filter: 卷积矩阵为 
 
       ```math
-      \begin{bmatrix}\frac{1}{13}, \frac{1}{13}, \frac{1}{13}\\ \frac{1}{13}, \frac{5}{13}, \frac{1}{13}\\ \frac{1}{13}, \frac{1}{13}, \frac{1}{13}\end{bmatrix}
+      \begin{bmatrix} \frac{1}{13}, \frac{1}{13}, \frac{1}{13} \\ \frac{1}{13}, \frac{5}{13}, \frac{1}{13} \\ \frac{1}{13}, \frac{1}{13}, \frac{1}{13} \end{bmatrix}
       ```
 
     * Emboss filter: 卷积矩阵为 
 
       ```math
-      \begin{bmatrix}-1, 0, 1\\ -1, 1, 1\\ -1, 0, 1\end{bmatrix}, 或者 \begin{bmatrix}1, 0, -1\\ 2, 0, -2\\ 1, 0, -1\end{bmatrix} 或者 \begin{bmatrix}-1, -1, 0\\ -1, 1, 1\\ 0, 1, 1\end{bmatrix}
+      \begin{bmatrix} -1, 0, 1 \\ -1, 1, 1 \\ -1, 0, 1 \end{bmatrix} , 或者 \begin{bmatrix} 1, 0, -1 \\ 2, 0, -2 \\ 1, 0, -1 \end{bmatrix} 或者 \begin{bmatrix} -1, -1, 0 \\ -1, 1, 1 \\ 0, 1, 1 \end{bmatrix}
       ```
 
 
     * Sharpen filter: 卷积矩阵为 
 
       ```math
-      \begin{bmatrix}0, -1, 0\\ -1, 5, -1\\ 0, -1, 0\end{bmatrix}
+      \begin{bmatrix} 0, -1, 0 \\ -1, 5, -1 \\ 0, -1, 0 \end{bmatrix}
       ```
 
 
