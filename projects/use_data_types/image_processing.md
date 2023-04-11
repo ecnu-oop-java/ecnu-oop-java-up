@@ -134,10 +134,10 @@ public class Luminance {
 6. 给定一个图片文件, 产生该图片的一个镜像图片(关于 y 轴对称)
 
 7. 滤镜 (filters) 可以看作对像素矩阵的某种变换. 通过添加滤镜, 我们可以改变图片的视觉效果. 请实现以下滤镜.
-      * Linear filter: 每一个像素的颜色变为周围 9 个像素点(包含它本身)颜色的平均值. 这个变换等价于将矩阵[1, 1, 1; 1, 1, 1; 1, 1, 1]/9 与 9个像素点做 *卷积 (Convolution)* . 而这个矩阵被称为卷积矩阵 (convolutional matrix). 关于卷积矩阵可以参考[1](https://en.wikipedia.org/wiki/Kernel_(image_processing)), [2](https://docs.gimp.org/2.6/en/plug-in-convmatrix.html).
-    * Blur filter: 卷积矩阵为 [1/13, 1/13, 1/13; 1/13, 5/13, 1/13; 1/13, 1/13, 1/13].
-    * Emboss filter: 卷积矩阵为 [-1, 0, 1; -1, 1, 1; -1, 0, 1], 或者 [1, 0, -1; 2, 0, -2; 1, 0, -1] 或者[-1, -1, 0; -1, 1, 1; 0, 1, 1].
-    * Sharpen filter: 卷积矩阵为 [0, -1, 0; -1, 5, -1; 0, -1, 0].
+      * Linear filter: 每一个像素的颜色变为周围 9 个像素点(包含它本身)颜色的平均值. 这个变换等价于将矩阵$\begin{bmatrix}\frac{1}{9}, \frac{1}{9}, \frac{1}{9} \\ \frac{1}{9}, \frac{1}{9}, \frac{1}{9}\\ \frac{1}{9}, \frac{1}{9}, \frac{1}{9}\end{bmatrix}$ 与 9个像素点做 *卷积 (Convolution)* . 而这个矩阵被称为卷积矩阵 (convolutional matrix). 关于卷积矩阵可以参考[1](https://en.wikipedia.org/wiki/Kernel_(image_processing)), [2](https://docs.gimp.org/2.6/en/plug-in-convmatrix.html).
+    * Blur filter: 卷积矩阵为 $\begin{bmatrix}\frac{1}{13}, \frac{1}{13}, \frac{1}{13}\\ \frac{1}{13}, \frac{5}{13}, \frac{1}{13}\\ \frac{1}{13}, \frac{1}{13}, \frac{1}{13}\end{bmatrix}$.
+    * Emboss filter: 卷积矩阵为 $\begin{bmatrix}-1, 0, 1\\ -1, 1, 1\\ -1, 0, 1\end{bmatrix}$, 或者 $\begin{bmatrix}1, 0, -1\\ 2, 0, -2\\ 1, 0, -1\end{bmatrix}$ 或者$\begin{bmatrix}-1, -1, 0\\ -1, 1, 1\\ 0, 1, 1\end{bmatrix}$.
+    * Sharpen filter: 卷积矩阵为 $\begin{bmatrix}0, -1, 0\\ -1, 5, -1\\ 0, -1, 0\end{bmatrix}$.
     * Oil painting filter: 给定参数 w, 将每个像素 (i, j) 的颜色替换为所有与 (i, j) *Manhattan 距离* 小于 w 的像素点中出现次数最多的颜色. 其中 Manhattan 距离(也称为 $l_1$ 距离)定义见 [3](https://en.wikipedia.org/wiki/Taxicab_geometry), [4](http://mathworld.wolfram.com/TaxicabMetric.html).
 
 8. 提升一张图片的亮度 (Brightness).
