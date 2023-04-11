@@ -135,6 +135,7 @@ public class Luminance {
 
 7. 滤镜 (filters) 可以看作对像素矩阵的某种变换. 通过添加滤镜, 我们可以改变图片的视觉效果. 请实现以下滤镜.
     * Linear filter: 每一个像素的颜色变为周围 9 个像素点(包含它本身)颜色的平均值. 这个变换等价于将矩阵 
+
     $$
     \begin{bmatrix}\frac{1}{9}, \frac{1}{9}, \frac{1}{9} \\ \frac{1}{9}, \frac{1}{9}, \frac{1}{9}\\ \frac{1}{9}, \frac{1}{9}, \frac{1}{9}\end{bmatrix}
     $$
@@ -142,15 +143,20 @@ public class Luminance {
     与 9个像素点做 *卷积 (Convolution)* . 而这个矩阵被称为卷积矩阵 (convolutional matrix). 关于卷积矩阵可以参考[1](https://en.wikipedia.org/wiki/Kernel_(image_processing)), [2](https://docs.gimp.org/2.6/en/plug-in-convmatrix.html).
 
     * Blur filter: 卷积矩阵为 
+
     $$
     \begin{bmatrix}\frac{1}{13}, \frac{1}{13}, \frac{1}{13}\\ \frac{1}{13}, \frac{5}{13}, \frac{1}{13}\\ \frac{1}{13}, \frac{1}{13}, \frac{1}{13}\end{bmatrix}
     $$
+
     * Emboss filter: 卷积矩阵为 
-    $$\begin{bmatrix}-1, 0, 1\\ -1, 1, 1\\ -1, 0, 1\end{bmatrix}, 或者 \begin{bmatrix}1, 0, -1\\ 2, 0, -2\\ 1, 0, -1\end{bmatrix} 或者 \begin{bmatrix}-1, -1, 0\\ -1, 1, 1\\ 0, 1, 1\end{bmatrix}
+
+    $$
+    \begin{bmatrix}-1, 0, 1\\ -1, 1, 1\\ -1, 0, 1\end{bmatrix}, 或者 \begin{bmatrix}1, 0, -1\\ 2, 0, -2\\ 1, 0, -1\end{bmatrix} 或者 \begin{bmatrix}-1, -1, 0\\ -1, 1, 1\\ 0, 1, 1\end{bmatrix}
     $$
 
 
     * Sharpen filter: 卷积矩阵为 
+
     $$
     \begin{bmatrix}0, -1, 0\\ -1, 5, -1\\ 0, -1, 0\end{bmatrix}
     $$
