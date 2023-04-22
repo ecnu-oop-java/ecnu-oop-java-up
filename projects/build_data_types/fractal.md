@@ -65,9 +65,9 @@ Koch 雪花是二维平面上由 Koch 曲线组合成的封闭图形.
 
 ### StdDraw 画图包
 
-[StdDraw 包](../src/fractal/StdDraw.java)封装了一些基本的画图方法. 
+[StdDraw 包](./src/fractal/StdDraw.java)封装了一些基本的画图方法. 
 可以利用它来绘制简单的集合图形包括点, 线, 矩形, 圆等. 
-详细的说明可以参见它的[文档](StdDraw.html). 
+详细的说明可以参见它的[文档](./docs/StdDraw.html). 
 以下列出我们可能会用到的接口:
 
 |方法  |  说明|
