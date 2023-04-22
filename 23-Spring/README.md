@@ -36,6 +36,7 @@ Dep. of Computer Science, ECNU, Spring 2023
 * [Lecture 4](slides/lecture4.pdf)
 * [Lecture 5](slides/lecture5.pdf)
 * [Lecture 6](slides/lecture6.pdf)
+* [Lecture 7](slides/lecture6.pdf)
 
 ## 实验
 
