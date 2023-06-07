@@ -42,6 +42,8 @@ Dep. of Computer Science, ECNU, Spring 2023
 * [Lecture 10](slides/lecture10.pdf)
 * [Lecture 11](slides/lecture11.pdf)
 * [Lecture 12](slides/lecture12.pdf)
+* [Lecture 13](slides/lecture13.pdf)
+* [review](slides/course_review.pdf)
 
 ## 实验
 
@@ -71,6 +73,6 @@ Dep. of Computer Science, ECNU, Spring 2023
 * Project 4: [创建 Java 类](../projects/build_data_types/README.md)
 * Project 5: [继承与组合](../projects/inheritance/README.md)
 * Project 6: [接口](../projects/interface/README.md) (资源： [链表](ref_source/tutorial_LinkedList.pdf), [MyList.java](ref_source/MyList.java))
-<!--
 * Project 7: [容器与I/O](../projects/container_io/README.md)
+<!--
 -->
