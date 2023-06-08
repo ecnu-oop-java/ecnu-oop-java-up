@@ -63,6 +63,7 @@ Dep. of Computer Science, ECNU, Spring 2023
 - [Lab 6 slides](slides/Lab6.pdf)
 - [Lab 7 slides](slides/Lab7.pdf)
 - [Lab 8 slides](slides/Lab8.pdf)
+- [Lab 9 slides](slides/Lab9.pdf)
 - 简便的文件输入包 [FileIO.java](ref_source/FileIO/FileIO.java)及[文档](ref_source/FileIO/doc/index.html)
 
 ### 实验内容
