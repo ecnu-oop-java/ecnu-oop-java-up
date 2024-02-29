@@ -13,8 +13,11 @@ Dep. of Computer Science, ECNU, Spring 2024
   * Email: ybwu\[at\]cs.ecnu.edu.cn
   * 办公室: 理科楼B713
 
-* 助教: 吴昊伦
+* 助教1: 吴昊伦
   * Email: 2505283948\[at\]qq.com
+
+* 助教2: 缪岱烨
+  * Email: 2825467993\[at\]qq.com
 
 ## 答疑
 
