@@ -23,7 +23,7 @@ JDK 有不同的实现,
 
 #### 下载及安装
 1. 进入 [Oracle JDK 下载页面](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-2. 下载 Java SE Development Kit. 目前有8u74和8u73两版本, 可选择其中任意一个.
+2. 下载 Java SE Development Kit. ~~目前有8u74和8u73两版本, 可选择其中任意一个~~.
 3. 选择 Windows 对应的文件下载. 注意其中又分为 x86 和 x64 两种. 若你的机器是32位则选择 x86, 若是64位则选择 x64. 下载前需勾选 Accept License Agreement.
 4. 打开所下载的 JDK 安装文件, 根据指示设置好安装路径(任意路径, 之后的环境变量配置需用到)进行安装.
 
