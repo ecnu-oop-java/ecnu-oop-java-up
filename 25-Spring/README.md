@@ -39,6 +39,7 @@ Dep. of Computer Science, ECNU, Spring 2025
 * [Lecture 3](slides/lecture3.pdf)
 * [Lecture 4](slides/lecture4.pdf)
 * [Lecture 5](slides/lecture5.pdf)
+* [Lecture 6](slides/lecture6.pdf)
 
 ## 实验
 
@@ -59,8 +60,8 @@ Dep. of Computer Science, ECNU, Spring 2025
 * Project 1: [第一个 Java 程序](../projects/first_java/README.md)
 * Project 2: [基本类型与控制流](../projects/primitive_ctlflow/README.md), [补充实验](../projects/familiar_with_toolkits/README.md)
 * Project 3: [使用 Java 包](../projects/use_data_types/README.md)
-<!--
 * Project 4: [创建 Java 类](../projects/build_data_types/README.md)
+<!--
 * Project 5: [继承与组合](../projects/inheritance/README.md)
 * Project 6: [接口](../projects/interface/README.md) (资源： [链表](ref_source/tutorial_LinkedList.pdf), [MyList.java](ref_source/MyList.java))
 * Project 7: [容器与I/O](../projects/container_io/README.md)
