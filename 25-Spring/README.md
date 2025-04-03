@@ -54,6 +54,7 @@ Dep. of Computer Science, ECNU, Spring 2025
 - [Lab 1 slides](slides/Lab1.pdf)
 - [Lab 2 slides](slides/Lab2.pdf), [ArrayDemo.java](ref_source/ArrayDemo.java), [StringDemo.java](ref_source/StringDemo.java)
 - [Lab 3 slides](slides/Lab3.pdf)
+- [Lab 4 slides](slides/Lab4.pdf))
 - 简便的文件输入包 [FileIO.java](ref_source/FileIO/FileIO.java)及[文档](ref_source/FileIO/doc/index.html)
 
 
