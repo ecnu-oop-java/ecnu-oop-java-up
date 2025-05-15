@@ -43,6 +43,7 @@ Dep. of Computer Science, ECNU, Spring 2025
 * [Lecture 7](slides/lecture7.pdf)
 * [Lecture 8](slides/lecture8.pdf)
 * [Lecture 9](slides/lecture9.pdf)
+* [Lecture 10](slides/lecture10.pdf)
 
 ## 实验
 
@@ -68,7 +69,8 @@ Dep. of Computer Science, ECNU, Spring 2025
 * Project 3: [使用 Java 包](../projects/use_data_types/README.md)
 * Project 4: [创建 Java 类](../projects/build_data_types/README.md)
 * Project 5: [继承与组合](../projects/inheritance/README.md)
+* Project 6: [接口](../projects/interface/README.md) 
 <!--
-* Project 6: [接口](../projects/interface/README.md) (资源： [链表](ref_source/tutorial_LinkedList.pdf), [MyList.java](ref_source/MyList.java))
 * Project 7: [容器与I/O](../projects/container_io/README.md)
+* Project 6: [接口](../projects/interface/README.md) (资源： [链表](ref_source/tutorial_LinkedList.pdf), [MyList.java](ref_source/MyList.java))
 -->
