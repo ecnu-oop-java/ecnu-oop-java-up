@@ -6,8 +6,8 @@
 
 ## 任务
 
-[a 接口与抽象类基础](interface_basic.md)
+[a 接口与抽象类基础](interface_basic/README.md)
 
-[b 数值计算](function.md)
+[b 数值计算](numeric_integration/README.md)
 
-[c 序列与迭代器](list.md)
+[c 序列与迭代器](seq_iterator/README.md)

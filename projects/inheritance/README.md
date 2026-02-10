@@ -6,8 +6,8 @@
 
 ## 任务
 
-[a 继承与组合基础](inheritance_basic.md)
+[a 继承与组合基础](inheritance_basic/README.md)
 
-[b 电路网络](circuits.md)
+[b 电路网络](circuits/README.md)
 
 
