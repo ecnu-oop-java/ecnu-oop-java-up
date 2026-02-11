@@ -25,11 +25,13 @@
 令时间步长为 $\Delta t$。一种常见的离散更新方式是（欧拉法）：
 
 - 速度更新：
+  
   $$
   \mathbf{v}_{t+\Delta t} = \mathbf{v}_t + \mathbf{a}_t \Delta t
   $$
 
 - 位置更新：
+  
   $$
   \mathbf{x}_{t+\Delta t} = \mathbf{x}*t + \mathbf{v}*{t+\Delta t}\Delta t
   $$
@@ -37,10 +39,13 @@
 其中 $\mathbf{x}=(x,y)$，$\mathbf{v}=(v_x,v_y)$，$\mathbf{a}=(a_x,a_y)$。
 
 重力可以视为恒定加速度：
+
 $$
 \mathbf{a} = (0, -g)
 $$
+
 也可以加入阻力/阻尼（可选）：
+
 $$
 \mathbf{v} \leftarrow \lambda \mathbf{v}, \quad \lambda \in (0,1)
 $$

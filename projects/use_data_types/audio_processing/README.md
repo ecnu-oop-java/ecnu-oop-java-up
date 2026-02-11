@@ -46,9 +46,11 @@
 ## 示例：计算音频的 RMS（均方根）音量
 
 RMS 常用来衡量“平均能量/响度”：
+
 $$
 \text{RMS} = \sqrt{\frac{1}{n}\sum_{i=0}^{n-1} samples[i]^2}
 $$
+
 示例代码：
 
 ```java
@@ -115,14 +117,17 @@ $$
    - 当 `i-d >= 0`，`y[i] = clip(x[i] + a * x[i-d])`。否则 `y[i] = x[i]`
 
 8. 尝试对两段音频 $A[i]$ 和 $B[i]$ (如两种乐器、伴奏和人声)进行混音处理：
+   
    $$
    y[i]=clip(αA[i]+βB[i])
    $$
 
 9. 在回声滤镜的基础上，将其升级为混响滤镜：
+   
    $$
    y[i]=x[i]+\sum_{k=1}^{K} a^{k},x[i-kd]
    \quad,\quad d=\lfloor delay\cdot44100\rfloor
    $$
+   
    采用参数：delay=0.04, a=0.33, K=7
 

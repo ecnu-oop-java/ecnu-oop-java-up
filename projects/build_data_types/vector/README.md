@@ -3,13 +3,17 @@
 ## 简介
 
 [向量 (vector)](https://en.wikipedia.org/wiki/Euclidean_vector) 是数学与工程中最基础的对象之一。在欧几里得空间中，一个向量可以表示“方向 + 大小”，也可以看作从原点指向某点的有向线段。在二维/三维空间中，我们通常用坐标来表示向量：
+
 $$
 \mathbf{v} = (x, y) \in \mathbf{R}^2 \quad \text{或} \quad \mathbf{v} = (x, y, z)\in \mathbf{R}^3.
 $$
+
 更一般地，在 $n$ 维空间：
+
 $$
 \mathbf{v} = (v_1, v_2, \dots, v_n) \in \mathbf{R}^n.
 $$
+
 向量在物理（速度、力）、计算机图形学（位置、法向量）、机器学习（特征向量、嵌入表示）等领域无处不在。本 Project 通过实现向量类，练习设计清晰的 API，并理解不同表示方式下的向量运算。
 
 ------
@@ -63,17 +67,23 @@ $$
 ## 极坐标形式 (Polar Form)
 
 二维向量也可以用极坐标表示：
+
 $$
 \mathbf{v} = (r,\theta), \quad r\in[0,\infty),\ \theta\in(-\pi,\pi]
 $$
+
 与笛卡尔坐标的关系：
+
 $$
 x = r\cos\theta,\quad y=r\sin\theta
 $$
+
 反过来：
+
 $$
 r=\sqrt{x^2+y^2},\quad \theta=\mathrm{atan2}(y,x)
 $$
+
 极坐标下旋转非常方便：将角度加上 $\alpha$ 即可得到旋转后的向量。
 
 ------
@@ -147,6 +157,7 @@ $$
    - 用向量表示 $\overrightarrow{AB}=B-A$、$\overrightarrow{AC}=C-A$
 
    - 三角形面积：
+     
      $$
      S = \frac{1}{2}\left|\overrightarrow{AB}\times\overrightarrow{AC}\right|
      $$
