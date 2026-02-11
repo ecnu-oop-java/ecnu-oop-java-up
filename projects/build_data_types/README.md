@@ -20,8 +20,8 @@
 
 ## 任务
 
-[a 长整数](big_integer/README.md)
+[a 有理数](big_rational/README.md)
 
-[b 复数](complex/README.md)
+[b 向量](vector/README.md)
 
-[c 分形](fractal/README.md)
+[c 粒子系统](particle_system/README.md)
