@@ -152,17 +152,17 @@ $$
    | `double radius()`                        | 返回向量的模长 $r$                         |
    | `VectorPolar projectOnto(VectorPolar v)` | 返回投影到 v 上的向量（需处理零向量）      |
 
-5. 给定二维平面上的三个点 $A(x_1,y_1), B(x_2,y_2), C(x_3,y_3)$，输出三角形面积与方向：
+5. 给定二维平面上的三个点 $A(x_1,y_1), B(x_2,y_2), C(x_3,y_3)$, 输出三角形面积与方向:
 
-   - 用向量表示：
-   $\overrightarrow{AB}=B-A$
+   - 用向量表示:
+   $\overrightarrow{AB}=B-A$ ,
    $\overrightarrow{AC}=C-A$
 
-   - 三角形面积：
+   - 三角形面积: 
      
-$$
-S = \frac{1}{2}\left|\overrightarrow{AB}\times\overrightarrow{AC}\right|
-$$
+   $$
+   S = \frac{1}{2}\left|\overrightarrow{AB}\times\overrightarrow{AC}\right|
+   $$
 
-   - 方向：若 $\overrightarrow{AB}\times\overrightarrow{AC} > 0$ 则 $A\to B\to C$ 为逆时针，否则为顺时针（等于 0 则共线）
+   - 方向: 若 $\overrightarrow{AB}\times\overrightarrow{AC} > 0$ 则 $A\to B\to C$ 为逆时针, 否则为顺时针(等于 0 则共线)
 
