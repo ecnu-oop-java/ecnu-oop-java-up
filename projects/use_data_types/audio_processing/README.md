@@ -118,16 +118,16 @@ $$
 
 8. 尝试对两段音频 $A[i]$ 和 $B[i]$ (如两种乐器、伴奏和人声)进行混音处理：
    
-   $$\begin{eqnarray*}
-   y[i]=clip(αA[i]+βB[i])
-   $$
+$$
+y[i]=clip(αA[i]+βB[i])
+$$
 
 9. 在回声滤镜的基础上，将其升级为混响滤镜：
    
-   $$\begin{eqnarray*}
-   y[i]=x[i]+\sum_{k=1}^{K} a^{k},x[i-kd]
-   \quad,\quad d=\lfloor delay\cdot44100\rfloor
-   $$
+$$
+y[i]=x[i]+\sum_{k=1}^{K} a^{k},x[i-kd]
+\quad,\quad d=\lfloor delay\cdot44100\rfloor
+$$
 
    采用参数：delay=0.04, a=0.33, K=7
 
