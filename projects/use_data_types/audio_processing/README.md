@@ -124,10 +124,10 @@ $$
 
 9. 在回声滤镜的基础上，将其升级为混响滤镜：
    
-$$
-y[i]=x[i]+\sum_{k=1}^{K} a^{k},x[i-kd]
-\quad,\quad d=\lfloor delay\cdot44100\rfloor
-$$
+   ```math
+   y[i]=x[i]+\sum_{k=1}^{K} a^{k},x[i-kd]
+   \quad,\quad d=\lfloor delay\cdot44100\rfloor
+
 
    采用参数：delay=0.04, a=0.33, K=7
 
