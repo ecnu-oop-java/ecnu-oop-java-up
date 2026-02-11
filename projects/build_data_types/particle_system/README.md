@@ -36,7 +36,7 @@ $$
 \mathbf{x}_{t+\Delta t} = \mathbf{x}*t + \mathbf{v}*{t+\Delta t}\Delta t
 $$
 
-其中 $\mathbf{x}=(x,y)$, $\mathbf{v}=(v_x,v_y)$，$\mathbf{a}=(a_x,a_y)$.
+其中 $\mathbf{x}=(x,y), \mathbf{v}=(v_x,v_y)$，$\mathbf{a}=(a_x,a_y)$.
 
 重力可以视为恒定加速度:
 
