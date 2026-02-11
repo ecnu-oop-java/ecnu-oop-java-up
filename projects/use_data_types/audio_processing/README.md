@@ -129,5 +129,6 @@ $$
    \quad,\quad d=\lfloor delay\cdot44100\rfloor
    ```
 
+
    采用参数：delay=0.04, a=0.33, K=7
 
