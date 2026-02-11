@@ -158,11 +158,10 @@ $$
    $\overrightarrow{AB}=B-A$ ,
    $\overrightarrow{AC}=C-A$
 
-   - 三角形面积: 
-     
-   $$
-   S = \frac{1}{2}\left|\overrightarrow{AB}\times\overrightarrow{AC}\right|
-   $$
+   - 三角形面积:
+      $$
+      S = \frac{1}{2}\left|\overrightarrow{AB}\times\overrightarrow{AC}\right|
+      $$
 
    - 方向: 若 $\overrightarrow{AB}\times\overrightarrow{AC} > 0$ 则 $A\to B\to C$ 为逆时针, 否则为顺时针(等于 0 则共线)
 
