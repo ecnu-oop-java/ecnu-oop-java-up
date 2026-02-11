@@ -26,15 +26,15 @@
 
 - 速度更新:
   
-   $$
-   \mathbf{v}_{t+\Delta t} = \mathbf{v}_t + \mathbf{a}_t \Delta t
-   $$
+$$
+\mathbf{v}_{t+\Delta t} = \mathbf{v}_t + \mathbf{a}_t \Delta t
+$$
 
 - 位置更新:
   
-  $$
-  \mathbf{x}_{t+\Delta t} = \mathbf{x}*t + \mathbf{v}*{t+\Delta t}\Delta t
-  $$
+$$
+\mathbf{x}_{t+\Delta t} = \mathbf{x}*t + \mathbf{v}*{t+\Delta t}\Delta t
+$$
 
 其中 $\mathbf{x}=(x,y)$，$\mathbf{v}=(v_x,v_y)$，$\mathbf{a}=(a_x,a_y)$.
 
