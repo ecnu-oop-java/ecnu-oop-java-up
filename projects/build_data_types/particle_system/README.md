@@ -24,27 +24,27 @@
 
 令时间步长为 $\Delta t$。一种常见的离散更新方式是（欧拉法）：
 
-- 速度更新：
+- 速度更新:
   
-  $$
-  \mathbf{v}_{t+\Delta t} = \mathbf{v}_t + \mathbf{a}_t \Delta t
-  $$
+   $$
+   \mathbf{v}_{t+\Delta t} = \mathbf{v}_t + \mathbf{a}_t \Delta t
+   $$
 
-- 位置更新：
+- 位置更新:
   
   $$
   \mathbf{x}_{t+\Delta t} = \mathbf{x}*t + \mathbf{v}*{t+\Delta t}\Delta t
   $$
 
-其中 $\mathbf{x}=(x,y)$，$\mathbf{v}=(v_x,v_y)$，$\mathbf{a}=(a_x,a_y)$。
+其中 $\mathbf{x}=(x,y)$，$\mathbf{v}=(v_x,v_y)$，$\mathbf{a}=(a_x,a_y)$.
 
-重力可以视为恒定加速度：
+重力可以视为恒定加速度:
 
 $$
 \mathbf{a} = (0, -g)
 $$
 
-也可以加入阻力/阻尼（可选）：
+也可以加入阻力/阻尼(可选):
 
 $$
 \mathbf{v} \leftarrow \lambda \mathbf{v}, \quad \lambda \in (0,1)
@@ -109,7 +109,7 @@ $$
    - 粒子数量或发射速率（例如 `N` 或 `rate`）
    - 时间步长 `dt` 与/或运行时长 `T`
 
-4. 加入边界与反弹：当粒子碰到边界（如 $x<0$、$x>1$、$y<0$、$y>1$）时：
+4. 加入边界与反弹：当粒子碰到边界(如 $x<0$, $x>1$, $y<0$, $y>1$)时:
 
    - 反弹：对应速度分量取反
    - 加入能量损失：例如碰撞后速度乘以 $\lambda\in(0,1)$
