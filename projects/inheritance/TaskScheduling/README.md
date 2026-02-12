@@ -67,7 +67,7 @@
 
 下图是字符串 `(S, (P, 5, 10), 20)` 对应的图：
 
-![image-20260209112436886](.\images\picture.png)
+![image-20260209112436886](images/picture.png)
 
 ## 实验内容
 
