@@ -81,6 +81,48 @@
    - 为什么不直接在 `Sequence` 接口里定义 `next()` 方法，而是要专门返回一个 `Iterator` 对象？（提示：如果两个线程想同时以不同进度遍历同一个序列，该怎么办？）
    - 如果未来我们需要增加一个“只访问序列中偶数下标元素”的功能，是应该修改 `Sequence` 类，还是新增一种 `Iterator` 的实现类？
 
+### 实验思考
+
+9. 在完成以上实验后，请回答以下问题：
+
+   - 对于 `LinkedSequence`，使用 `for(int i=0; i<s.size(); i++) { s.get(i); }` 遍历和使用 `Iterator` 遍历，哪种效率更高？为什么？
+
+   - 为什么不直接在 `Sequence` 接口里定义 `next()` 方法，而是要专门返回一个 `Iterator` 对象？（选做）
+   
+     > **【背景知识：多线程魔法与“共享危机”】**
+     > 在平时的编程中，我们的程序就像是一个“单人玩家”，代码总是从 `main` 方法的第一行严格按顺序执行到最后一行。但在现实中，计算机通常会同时做很多事情。在 Java 中，我们可以让程序变成“多人游戏”，这就需要用到**线程（Thread）**。你可以把“线程”想象成是你雇佣的“小工人”。
+     > 
+     > 
+     > 
+     > **体验一下召唤小工人：**
+     > 运行以下代码，观察控制台输出，你会发现工人 A 和工人 B 的输出是交替、混合在一起的。这就是多线程“并发”干活的直观表现。
+     > ```java
+     > public class ThreadDemo {
+     >     public static void main(String[] args) {
+     >         Thread workerA = new Thread(() -> {
+     >             for (int i = 1; i <= 5; i++) {
+     >                 System.out.println("工人A 正在处理第 " + i + " 个数据");
+     >                 try { Thread.sleep(100); } catch (Exception e) {}
+     >             }
+     >         });
+     >         Thread workerB = new Thread(() -> {
+     >             for (int i = 1; i <= 5; i++) {
+     >                 System.out.println("工人B 正在处理第 " + i + " 个数据");
+     >                 try { Thread.sleep(100); } catch (Exception e) {}
+     >             }
+     >         });
+     >         workerA.start();
+     >         workerB.start();
+     >     }
+     > }
+     > ```
+     > **两人同看一本书的挑战：**
+     > 假设 `Sequence` 是一本放在公共桌子上的书。如果把 `next()` 方法直接写在 `Sequence` 内部，就意味着“当前读到了第几页”这个进度记录，是直接保存在这本书（容器本身）里的。
+     > 这时，工人A（线程A）和工人B（线程B）都想各自从头到尾读完这本书，于是他们在同一个 `Sequence` 对象上，交替着调用 `next()` 方法往前读。
+     > 
+     > *结合上面的代码想象一下，工人A读了一会儿去休息了，期间工人B接着调用 `next()` 往下读。等工人A回来继续调用 `next()` 时，会发生什么灾难？现在的 `Iterator` 设计模式（每次调用都返回一个全新的迭代器对象）是如何巧妙解决这个问题的？*
+
+   - 如果未来我们需要增加一个“只访问序列中偶数下标元素”的功能，是应该修改 `Sequence` 类，还是新增一种 `Iterator` 的实现类？
 
 
 ## 第二部分（vibe coding 实现）
