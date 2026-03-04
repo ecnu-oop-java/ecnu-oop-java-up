@@ -14,11 +14,13 @@ Dep. of Computer Science, ECNU, Spring 2026
   * 办公室: 理科楼B713
 
 * 助教1: 马朝阳
-  * Email: 51285901034@stu.ecnu.edu.cn 
+  * Email: 51285901034\[at\]stu.ecnu.edu.cn 
 
 * 助教2: 罗仕玮
-  * Email: 51285901055@stu.ecnu.edu.cn
+  * Email: 51285901055\[at\]stu.ecnu.edu.cn
 
+* 助教3: 匡家豪
+  * jhkuang\[at\]stu.ecnu.edu.cn
 
 ## 答疑
 
