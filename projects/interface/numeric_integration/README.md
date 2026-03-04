@@ -129,11 +129,30 @@ double diff(double x)
 double findRoot(DifferentiableFunction f)
 ```
 
-5. 定义类 NewtonCatos, 包含方法 `Trapozoidal` 使用梯形公式计算 f 在 $[a, b]$ 上的积分. 同时包含方法 `Simpson`, 使用 Simpson 公式计算定积分. 对以上四个函数类进行测试. 
+5. 定义类 NewtonCatos, 包含方法 `Trapozoidal` 使用梯形公式计算 f 在 $[a, b]$ 上的积分. 同时包含方法 `Simpson`, 使用 Simpson 公式计算定积分. 请自行设计测试用例（例如计算 $\int_0^{\pi} \sin(x)dx$）进行测试. 
 
 ```java
 double Trapozoidal(Function f, double a, double b)
 double Simpson(Function f, double a, double b)
 ```
+6. 结果可视化与误差分析
+
+  本环节要求结合 AI 编程助手完成数据的可视化展示。
+
+  你需要使用你自己的 Java 代码生成原始数据，然后编写 Prompt 引导 AI 生成可视化图表或代码。
+
+  6.1 准备数据
+
+  编写一个驱动程序，针对某个已知积分值的函数（如 $\sin(x)$ 在 $[0, \pi]$ 上的积分，理论值为 2），分别使用梯形公式和 Simpson 公式进行计算。
+
+  - 让 $n$ (划分段数) 从 $10$ 逐步增加到 $1000$ (步长或倍率自定)。
+  - 将计算结果（包括：n值、梯形公式计算值、梯形公式绝对误差、Simpson 公式计算值、Simpson 公式绝对误差）以规范的格式（如 CSV 格式或整齐的控制台文本）输出。
+
+  6.2 可视化
+
+  将上述 Java 程序输出的数据提供给 AI，并要求 AI 协助完成以下任一形式的可视化任务。
+
+  1. 收敛过程展示：绘制 "积分计算值 vs $n$" 的曲线。展示随着 $n$ 增大，计算值是如何逼近真实值的。
+  2. 误差对比分析：绘制 "绝对误差($\log$标尺) vs $n(\log$标尺)" 的双对数坐标图。对比梯形公式与 Simpson 公式在误差收敛速度上的差异（即斜率的不同）。
 
 
