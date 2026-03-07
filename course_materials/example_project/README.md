@@ -11,12 +11,24 @@
 >
 > ```shell
 >  ├──project01
->  │   └──README.md   # project01的说明文档
+>  │   ├───src
+>  │   │  └──main
+>  │   │    ├── java                # 项目源代码目录
+>  │   │    │   └── Example.java
+>  │   │    └── resources           # 项目资源目录
+>  │   │        └── exmaple.txt
+>  │   ├─imgs                       # README.md的嵌入图片
+>  │   ├─docs                       # 补充说明
+>  │   └──README.md                 # 说明文档
 >  └───project02
 >     ├───sub-project021
->     │  └───README.md # project021的说明文档
+>     │  ├───...
+>     │  ├───...
+>     │  └───README.md
 >     └───sub-project022
->        └───README.md # project0的说明文档
+>        ├───...
+>        ├───...
+>        └───README.md
 > ```
 >
 > 同学们需要根据自己需求，对完成的实验做适当的解释说明。
@@ -28,7 +40,7 @@
 
 ### Question11
 
-![](img/logo.png)
+![](imgs/logo.png)
 
 > 对于需要提供**图片**的问题，可以使用[Markdown图片语法](https://markdown.com.cn/basic-syntax/images.html)在文档中嵌入你的图片。
 > 请注意，为了保证所插入图片的正常显示，请参考本文档在同级目录下创建`img`目录存放你的图片，并使用**相对路径**插入图片。
@@ -39,19 +51,29 @@
 
 ## Question2
 
-```Java
-// example codes for Java
-public class HelloWorld {
-    public static void main (String args[]) {
-        System.out.println("Hello World!");
-    }
+> 对于需要提供**代码**的问题，使用[Markdown链接语法](https://markdown.com.cn/basic-syntax/links.html)添加解决该问题源代码的链接并按要求、适当进行文字说明，例如：
+
+这是本题的源代码：[代码](src/main/java/Example.java)
+
+> 对于代码复杂、需要额外解释的题目，可以使用[Markdown代码语法](https://markdown.com.cn/basic-syntax/code.html)在说明文档中内嵌你的代码，例如：
+
+```java
+public static void main (String args[]) {
+    System.out.println("This is an example java code.");
 }
 ```
 
-> 对于需要提供**代码**的问题，可以使用[Markdown代码语法](https://markdown.com.cn/basic-syntax/code.html)在文档中嵌入你的代码。
+说明：`main`方法会在控制台输出"This is an example java code."。
 
 ## QuestionN
 
 ## 补充说明
 
 > 如果在完成`实验内容`外还有其他需要说明的内容，使用**二级标题**`补充说明`作为标题。
+
+...
+
+> 为了控制`/README.md`的内容长度，对于复杂的项目可以在项目`/docs`下提供更详细的说明文档，例如后续需要完成的vibe coding projects。
+> 如果提供了额外的说明文档，请使用[Markdown链接语法](https://markdown.com.cn/basic-syntax/links.html)在本节`补充说明`中提供对应说明文档的链接（补充文档控制在3个以内）。例如：
+
+本节说明在[example.md](docs/example.md).
