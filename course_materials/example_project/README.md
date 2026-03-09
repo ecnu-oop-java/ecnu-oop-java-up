@@ -1,37 +1,54 @@
-> 以下是一个示例，用于规范同学们在Projects提供的说明文档。
-> 在阅读文档之前，清注意以下几点：
->
-> 1. Markdown语法可以参考[Markdown教程](https://markdown.com.cn/basic-syntax/blockquotes.html#google_vignette)或者[Markdown Guide](https://www.markdownguide.org/basic-syntax/)进行学习；
-> 2. 文档中所有[Markdown引用](https://markdown.com.cn/basic-syntax/blockquotes.html)都是对内容的解释，不需要添加到你的文档中；
+# 前置知识
 
-# 说明文档
+**Lab1-说明文档**是一个示例，用于帮助同学们在完成课程Projects时**管理项目目录结构**、**编写说明文档**等。
+
+## Markdown
+
+在阅读文档之前，清注意以下几点：
+
+1. Markdown语法可以参考[Markdown教程](https://markdown.com.cn/basic-syntax/blockquotes.html#google_vignette)或者[Markdown Guide](https://www.markdownguide.org/basic-syntax/)进行学习；
+2. 文档中所有[Markdown引用](https://markdown.com.cn/basic-syntax/blockquotes.html)都是对内容的解释，不需要添加到你的文档中；
+
+## 项目目录组织
+
+> 合理的、规范的项目目录结构可以提高代码可读性、降低项目管理难度等
+
+不同编程语言有不同的目录结构规范，本课程参考[Standard Directory Layout for Maven Java](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html)提供示例结构如下：
+
+```shell
+├──project01
+│   ├───src
+│   │  └──main
+│   │    ├── java                # 项目源代码目录
+│   │    │   └── Example.java
+│   │    └── resources           # 项目资源目录
+│   │        └── exmaple.txt
+│   ├─imgs                       # README.md的嵌入图片
+│   ├─docs                       # 补充说明目录
+│   └──README.md                 # 说明文档
+└───project02
+    ├───sub-project021
+    │  ├───...
+    │  ├───...
+    │  └───README.md
+    └───sub-project022
+        ├───...
+        ├───...
+        └───README.md
+```
+
+**请所有同学参考以上目录结构整理自己的project**，以下是对目录结构的简单解释：
+
+1. `/src/main/java`：项目代码目录，存放project涉及的java源代码；
+2. `/src/main/resources`：项目资源目录，存放project设计的非代码文件，例如需要读写的`.txt`和`.jpg`文件等；
+3. `/imgs`：存放项目说明文档`README.md`的嵌入图片；
+4. `/docs`：补充说明目录，存放用于说明复杂项目的markdown文档；
+
+---
+
+# Lab1-说明文档
 
 > 使用**一级标题**`项目名称`作为说明文档的标题。
-> 一个project可能有多个sub projects。针对每个project都需要在对应目录下提供说明文档，例如：
->
-> ```shell
->  ├──project01
->  │   ├───src
->  │   │  └──main
->  │   │    ├── java                # 项目源代码目录
->  │   │    │   └── Example.java
->  │   │    └── resources           # 项目资源目录
->  │   │        └── exmaple.txt
->  │   ├─imgs                       # README.md的嵌入图片
->  │   ├─docs                       # 补充说明
->  │   └──README.md                 # 说明文档
->  └───project02
->     ├───sub-project021
->     │  ├───...
->     │  ├───...
->     │  └───README.md
->     └───sub-project022
->        ├───...
->        ├───...
->        └───README.md
-> ```
->
-> 同学们需要根据自己需求，对完成的实验做适当的解释说明。
 
 ## Question1
 
