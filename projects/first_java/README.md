@@ -22,6 +22,7 @@ JDK 有不同的实现,
 ### Winodws + Oracle JDK
 
 #### 下载及安装
+
 1. 进入 [Oracle JDK 下载页面](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 2. 下载 Java SE Development Kit. ~~目前有8u74和8u73两版本, 可选择其中任意一个~~.
 3. 选择 Windows 对应的文件下载. 注意其中又分为 x86 和 x64 两种. 若你的机器是32位则选择 x86, 若是64位则选择 x64. 下载前需勾选 Accept License Agreement.
@@ -155,7 +156,7 @@ sudo apt-get install openjdk-8-jdk
     * [Eclipse](https://eclipse.org/)
 
 * 编译工具 (Java build tools).
-我们使用JDK javac 作为主要的编译工具. 同样, 对于大规模的项目, 有其他更强大的编译工具. 以下为两种常用的编译工具:
+  我们使用JDK javac 作为主要的编译工具. 同样, 对于大规模的项目, 有其他更强大的编译工具. 以下为两种常用的编译工具:
     * [Apache Ant](https://ant.apache.org)
     * [Apache Maven](https://maven.apache.org/)
 
@@ -195,5 +196,4 @@ sudo apt-get install openjdk-8-jdk
 
 9. 编写程序输出10次 "Hello World!".
 10. Java 语言的变量类型 (int, float, double), 表达式(运算符, 逻辑表达式等)以及控制结构 (条件语句, 循环语句等) 和 C 语言比较相似. 你能否用使用 C 语言的知识写一些稍微复杂的 Java 程序呢?
-
 
