@@ -35,6 +35,7 @@ Dep. of Computer Science, ECNU, Spring 2026
 
 * [Lecture 1](slides/lecture1.pdf)
 * [Lecture 2](slides/lecture2.pdf)
+* [Lecture 3](slides/lecture3.pdf)
 
 ## 实验
 
@@ -42,7 +43,10 @@ Dep. of Computer Science, ECNU, Spring 2026
 
 提交地址: ecnu_java_2026\[at\]163.com 
 
-提交格式: 实验编号_学号_姓名.zip (例如: Lab1_10215102000_陈东.zip)
+作业格式：参考[样例作业](../course_materials/example_project/README.md)
+
+命名格式: 实验编号_学号_姓名.zip (例如: Lab1_10215102000_陈东.zip)
+
 
 ### 实验讲义及相关资源
 
