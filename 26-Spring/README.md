@@ -56,22 +56,21 @@ Dep. of Computer Science, ECNU, Spring 2026
 - [Lab 4 slides](slides/Lab4.pdf))
 - 简便的文件输入包 [FileIO.java](ref_source/FileIO/FileIO.java)及[文档](ref_source/FileIO/doc/index.html)
 
-
 ### 实验内容
 
 | 实验编号 | 作业链接 | 提交时间(暂定) |
 | -------  | -------  | -------- |
 | Project 1 | [第一个 Java 程序](../projects/first_java/README.md) | 3月11日(1 week) |
-| Project 2 | [基本类型与控制流](../projects/primitive_ctlflow/README.md), [补充实验](../projects/familiar_with_toolkits/README.md) | 4月1日 (3 weeks) |
-| Project 3 | [使用 Java 包](../projects/use_data_types/README.md) | 4月15日 (2 weeks)| 
+| Project 2 | [基本类型与控制流](../projects/primitive_ctlflow/README.md), [补充实验](../projects/familiar_with_toolkits/README.md), [Git实验](../projects/git/README.md) | 4月1日 (3 weeks) |
+| Project 3 | [使用 Java 包](../projects/use_data_types/README.md) | 4月15日 (2 weeks)|
 | Project 4 | [创建 Java 类](../projects/build_data_types/README.md) | 5月6日 (3 weeks) |
 | Project 5 | [继承与组合](../projects/inheritance/README.md) | 5月20日 (2 weeks) |
 | Project 6 | [接口](../projects/interface/README.md) | 6月10日 (3 weeks) |
 | Project 7 | [容器与I/O](../projects/container_io/README.md) | 6月24日 (2 weeks) |
 
-
 <!--
-* Project 2: [基本类型与控制流](../projects/primitive_ctlflow/README.md), [补充实验](../projects/familiar_with_toolkits/README.md)
+
+* Project 2: [基本类型与控制流](../projects/primitive_ctlflow/README.md), [补充实验](../projects/familiar_with_toolkits/README.md), [Git实验](../projects/git/README.md)
 * Project 3: [使用 Java 包](../projects/use_data_types/README.md)
 * Project 4: [创建 Java 类](../projects/build_data_types/README.md)
 * Project 5: [继承与组合](../projects/inheritance/README.md)
