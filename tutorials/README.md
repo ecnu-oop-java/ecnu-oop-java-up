@@ -17,5 +17,5 @@
 5. [git](git)
    使用git完成代码仓库的版本控制
 
-6. [vibe coding](vibe-coding)
+6. [vibe coding](vibe_coding)
    使用AI帮助完成代码
