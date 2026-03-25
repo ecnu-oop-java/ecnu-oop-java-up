@@ -5,7 +5,7 @@
 > **提示词**：
 >
 > ```
-> 请在这份文档中提供关于Java Editor的知识，希望满足以下需求：
+> 请在这份文档中提供关于Editor的知识，希望满足以下需求：
 > 1. 解释editor相关的基本概念（什么是editor？为什么需要使用editor?）
 > 2. 常见的editor。（本tutorials主要使用VSCode，其余ditor仅简单介绍）
 > 3. VSCode的下载安装
