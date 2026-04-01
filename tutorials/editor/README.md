@@ -7,7 +7,7 @@
 > ```
 > 请在这份文档中提供关于Editor的知识，希望满足以下需求：
 > 1. 解释editor相关的基本概念（什么是editor？为什么需要使用editor?）
-> 2. 常见的editor。（本tutorials主要使用VSCode，其余ditor仅简单介绍）
+> 2. 常见的editor。（本tutorials主要使用VSCode，其余editor仅简单介绍）
 > 3. VSCode的下载安装
 > 4. VSCode完成Java Project所需要的环境配置，包括但不限于VSCode基本配置、编辑器配置、插件配置。
 > ```
