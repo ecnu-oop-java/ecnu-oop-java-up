@@ -43,7 +43,7 @@ Dep. of Computer Science, ECNU, Spring 2026
 
 提交地址: ecnu_java_2026\[at\]163.com 
 
-作业格式：参考[样例作业](../course_materials/example_project/README.md)
+作业格式：参考[样例作业](../tutorials/example_project)
 
 命名格式: 实验编号_学号_姓名.zip (例如: Lab1_10215102000_陈东.zip)
 
@@ -53,7 +53,7 @@ Dep. of Computer Science, ECNU, Spring 2026
 - [Lab 1 Java环境](slides/Lab1.pdf)
 - [Lab 2 字符串、IO操作](slides/Lab2.pdf), [ArrayDemo.java](ref_source/ArrayDemo.java), [StringDemo.java](ref_source/StringDemo.java)
 - [Lab 3 git](slides/Lab3.pdf)
-- [Lab 4 slides](slides/Lab4.pdf))
+- [Lab 4 slides](slides/Lab4.pdf)
 - 简便的文件输入包 [FileIO.java](ref_source/FileIO/FileIO.java)及[文档](ref_source/FileIO/doc/index.html)
 
 ### 实验内容
