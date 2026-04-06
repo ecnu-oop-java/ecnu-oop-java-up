@@ -1,3 +1,5 @@
+> 以下非Markdown引用部分均为GPT5-mini生成，说明文档不必按照以下格式整理，但请保证描述清楚你完成的project
+
 # 简易图书管理系统（Maven Java Project）
 
 本项目实现了一个简易图书管理系统的核心业务逻辑，并按照 Maven Java 标准目录布局组织代码。
@@ -63,3 +65,9 @@ java -cp target/classes com.ecnu.library.Main
 项目说明文档见 [docs/project.md](docs/project.md)。
 
 测试说明文档见 [docs/testing.md](docs/testing.md)。
+
+## Vibe-coding
+
+1. [./docs/chat.json](Main Chat)：在这段对话中实现了一个简单的图书馆系统。
+
+> ...(对于实际作业中的项目，可能需要提供多段对话，请参考1.简单描述对话内容)
