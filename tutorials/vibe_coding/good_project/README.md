@@ -6,6 +6,8 @@
 
 ## 目录结构
 
+> 这部分输出可以在命令行使用`tree`命令生成，具体使用方式请向Agent学习
+
 ```text
 good_project
 ├── src
@@ -28,6 +30,8 @@ good_project
 
 ## 功能说明
 
+> 对主要代码(Class)中的主要属性(Property)和方法(Method)进行说明
+
 1. Book 实体类
 
 - 字段：id, title, author, isBorrowed
@@ -46,6 +50,11 @@ good_project
 
 ## 运行与测试
 
+> 此处提供一个主要的测试用例，让我们知道：
+>
+> 1. 代码是否可以正常运行？
+> 2. 代码是否符合题目要求？
+
 在当前目录执行：
 
 ```bash
@@ -62,12 +71,18 @@ java -cp target/classes com.ecnu.library.Main
 
 ## 补充文档
 
-项目说明文档见 [docs/project.md](docs/project.md)。
+> 当前文档为项目的**主**说明文档，不一定需要在一个文档中描述所有内容。
+> 实际开发中，可以根据你的理解按功能模块等要素划分为多个说明文档。
+
+补充说明文档见 [docs/project.md](docs/project.md)。
+
+> 测试文档同理。
 
 测试说明文档见 [docs/testing.md](docs/testing.md)。
 
 ## Vibe-coding
 
-1. [./docs/chat.json](Main Chat)：在这段对话中实现了一个简单的图书馆系统。
+1. [Main Chat](./docs/chat.json)：在这段对话中实现了一个简单的图书馆系统。
+2. ...
 
-> ...(对于实际作业中的项目，可能需要提供多段对话，请参考1.简单描述对话内容)
+> 对于实际项目，一般需要提供多段对话，即多个`.json`文件，请参考`1.`提供文件引用并简要描述对话内容
