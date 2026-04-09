@@ -33,9 +33,11 @@ Dep. of Computer Science, ECNU, Spring 2026
 
 ## 讲义
 
-- [Lecture 1](slides/lecture1.pdf)
-- [Lecture 2](slides/lecture2.pdf)
-- [Lecture 3](slides/lecture3.pdf)
+* [Lecture 1](slides/lecture1.pdf)
+* [Lecture 2](slides/lecture2.pdf)
+* [Lecture 3](slides/lecture3.pdf)
+* [Lecture 4](slides/lecture4.pdf)
+* [Lecture 5](slides/lecture5.pdf)
 
 ## 实验
 
